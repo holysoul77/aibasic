@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { X, Copy, Check, Database, KeyRound, ExternalLink } from 'lucide-react';
+import { X, Copy, Check, Database, ExternalLink } from 'lucide-react';
 
 interface SupabaseGuideModalProps {
   isOpen: boolean;
@@ -190,4 +190,3 @@ GEMINI_API_KEY=your-gemini-api-key-here`}
     </div>
   );
 }
-

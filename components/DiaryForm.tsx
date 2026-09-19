@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { DiaryEntry, EMOTION_MAP } from '@/types/diary';
-import { Sparkles, Calendar, PenLine, Send, CheckCircle2, AlertCircle } from 'lucide-react';
+import { Sparkles, Calendar, PenLine, CheckCircle2, AlertCircle } from 'lucide-react';
 import { saveDiary } from '@/lib/supabase';
 
 interface DiaryFormProps {
@@ -240,4 +240,3 @@ export default function DiaryForm({ onDiaryCreated }: DiaryFormProps) {
     </section>
   );
 }
-
